@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Great Lakes Language Institute</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f8fb;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 500px;
+      margin: 30px auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 140px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    h2, h3 {
+      text-align: center;
+      color: #0a3d62;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #0a3d62;
+      color: white;
+      font-size: 16px;
+      margin-top: 20px;
+      border: none;
+    }
+    .agenda {
+      background: #eef5fb;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 25px;
+      font-size: 14px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 25px;
+      color: #333;
+      font-weight: bold;
+    }
+    .contact-links a {
+      display: block;
+      margin: 5px 0;
+      text-decoration: none;
+      color: #0a3d62;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="logo.png" alt="Great Lakes Logo">
+
+  <h2>Student Registration</h2>
+  <p>Please fill in this form. We will contact you on WhatsApp.</p>
+
+  <!-- REGISTRATION FORM -->
+  <form action="https://formsubmit.co/institutegreatlakes47@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New Student Registration">
+    <input type="hidden" name="_autoresponse" value="Thank you for registering with Great Lakes Language Institute. We will contact you shortly on WhatsApp.">
+    <input type="hidden" name="_template" value="table">
+
+    <label>Full Name</label>
+    <input type="text" name="Full Name" required>
+
+    <label>Gender</label>
+    <select name="Gender" required>
+      <option value="">Select gender</option>
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+
+    <label>Language to Study</label>
+    <select name="Language" required>
+      <option>English</option>
+      <option>French</option>
+      <option>German</option>
+    </select>
+
+    <label>Level</label>
+    <select name="Level" required>
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Advanced</option>
+    </select>
+
+    <label>Phone Number (WhatsApp)</label>
+    <input type="text" name="Phone Number" required>
+
+    <button type="submit">Submit Registration</button>
+  </form>
+
+  <!-- AGENDA / MORE INFORMATION -->
+  <div class="agenda">
+    <h3>Agenda & More Information</h3>
+    <p>
+      Course schedules and detailed programs will be shared after registration
+      or upon request.
+    </p>
+    <p>
+      Contact us directly:
+    </p>
+    <div class="contact-links">
+      📞 <a href="tel:+250789157628">Call: +250 789 157 628</a>
+      💬 <a href="https://wa.me/250789157628" target="_blank">WhatsApp: +250 789 157 628</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="contact-links">
+      📞 <a href="tel:+250789157628">Call: +250 789 157 628</a>
+      💬 <a href="https://wa.me/250789157628" target="_blank">WhatsApp: +250 789 157 628</a>
+    </div>
+    Great Lakes Language Institute<br>
+    From Rwanda to the World
+  </div>
+
+</div>
+
+</body>
+</html>
